@@ -1,0 +1,28 @@
+/**
+ * Firefox Reader Zenburn theme
+ *
+ * See http://kippura.org/zenburnpage/
+ */
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix("about:reader") {
+    body, #container, #reader-toolbar {
+        background-color: #4f4f4f !important;
+        color: #dcdccc !important;
+    }
+
+    #container {
+        width: 90% !important;
+        max-width: none !important;
+    }
+
+    #reader-toolbar {
+        border-right: none !important;
+    }
+
+    code {
+        background-color: #6f6f6f !important;
+        border-radius: 3px !important;
+        padding: 0 .2em !important;
+    }
+}
